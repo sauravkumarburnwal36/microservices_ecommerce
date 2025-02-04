@@ -20,6 +20,10 @@ import java.util.List;
 public class OrderController {
     private final OrdersService ordersService;
 
+    @GetMapping("/helloOrders")
+    public String helloOrders(){
+        return "Hello From Orders Service";
+    }
     @GetMapping
     public ResponseEntity<List<OrderRequestDto>> getAllOrders(HttpServletRequest httpServletRequest){
         log.info("Fetching all orders via controller");
