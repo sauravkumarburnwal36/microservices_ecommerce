@@ -6,15 +6,12 @@ import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/orders")
+@RequestMapping("/core")
 @RequiredArgsConstructor
 @Slf4j
 public class OrderController {
@@ -36,5 +33,11 @@ public class OrderController {
         log.info("Fetching order with id:{} via controller",orderId);
         OrderRequestDto orderRequestDto=ordersService.getOrderById(orderId);
         return ResponseEntity.ok(orderRequestDto);
+    }
+
+    @PostMapping("/create-orders")
+    public ResponseEntity<OrderRequestDto> createOrders(@RequestBody OrderRequestDto orderRequestDto){
+        OrderRequestDto orderRequestDto1=ordersService.createOrders(orderRequestDto);
+        return ResponseEntity.ok(orderRequestDto1);
     }
 }
