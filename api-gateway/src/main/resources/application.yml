@@ -12,6 +12,11 @@ spring:
             - Path=/api/v1/orders/**
           filters:
             - StripPrefix=2
+            - name: LoggingOrdersFilter
+            - name: Authentication
+              args:
+                enabled: true
+
            # - RedirectTo=302,https://youtube.com
 
         - id: inventory-service
@@ -26,3 +31,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+jwt:
+  secretKey: ${JWT_SECRET_KEY}
