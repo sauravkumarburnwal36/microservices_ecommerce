@@ -1,0 +1,49 @@
+13-02-2025 20:38:45.582 [background-preinit] [-] INFO  api-gateway-o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 8.0.2.Final
+13-02-2025 20:38:45.944 [main] [-] INFO  api-gateway-c.e.e.a.ApiGatewayApplication.logStarting - Starting ApiGatewayApplication using Java 22.0.1 with PID 19816 (H:\springboot_0_100_codingshuttle\spring_boot_1_100\ecommerce\api-gateway\target\classes started by user in H:\springboot_0_100_codingshuttle\spring_boot_1_100\ecommerce)
+13-02-2025 20:38:45.946 [main] [-] INFO  api-gateway-c.e.e.a.ApiGatewayApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+13-02-2025 20:38:46.058 [main] [-] INFO  api-gateway-o.s.c.c.c.ConfigServerConfigDataLoader.logTo - Fetching config from server at : http://localhost:8888
+13-02-2025 20:38:46.095 [main] [-] INFO  api-gateway-o.s.c.c.c.ConfigServerConfigDataLoader.logTo - Located environment: name=api-gateway, profiles=[default], label=null, version=a96ec45c1b1bfd65a79a9b337475e3c637606b91, state=null
+13-02-2025 20:38:49.311 [main] [-] INFO  api-gateway-o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=b87e1e32-fa77-3348-9f79-be195f155eb8
+13-02-2025 20:38:52.056 [main] [-] INFO  api-gateway-o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+13-02-2025 20:38:53.275 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [After]
+13-02-2025 20:38:53.276 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [Before]
+13-02-2025 20:38:53.277 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [Between]
+13-02-2025 20:38:53.277 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [Cookie]
+13-02-2025 20:38:53.277 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [Header]
+13-02-2025 20:38:53.278 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [Host]
+13-02-2025 20:38:53.278 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [Method]
+13-02-2025 20:38:53.279 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [Path]
+13-02-2025 20:38:53.279 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [Query]
+13-02-2025 20:38:53.283 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [ReadBody]
+13-02-2025 20:38:53.285 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [RemoteAddr]
+13-02-2025 20:38:53.286 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+13-02-2025 20:38:53.287 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [Weight]
+13-02-2025 20:38:53.290 [main] [-] INFO  api-gateway-o.s.c.g.r.RouteDefinitionRouteLocator.lambda$initFactories$1 - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+13-02-2025 20:38:54.792 [main] [-] INFO  api-gateway-o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+13-02-2025 20:38:56.227 [main] [-] INFO  api-gateway-o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+13-02-2025 20:38:57.193 [main] [-] INFO  api-gateway-o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 17 endpoints beneath base path '/actuator'
+13-02-2025 20:38:58.673 [main] [-] INFO  api-gateway-o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration.restTemplateDiscoveryClientOptionalArgs - Eureka HTTP Client uses RestTemplate.
+13-02-2025 20:38:58.912 [main] [-] WARN  api-gateway-o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger.afterPropertiesSet - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+13-02-2025 20:38:59.280 [main] [-] INFO  api-gateway-o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+13-02-2025 20:38:59.339 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+13-02-2025 20:38:59.353 [main] [-] INFO  api-gateway-c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+13-02-2025 20:38:59.374 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.fetchRegistry - Disable delta property : false
+13-02-2025 20:38:59.374 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.fetchRegistry - Single vip registry refresh property : null
+13-02-2025 20:38:59.374 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.fetchRegistry - Force full registry fetch : false
+13-02-2025 20:38:59.375 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.fetchRegistry - Application is null : false
+13-02-2025 20:38:59.375 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.fetchRegistry - Registered Applications size is zero : true
+13-02-2025 20:38:59.375 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.fetchRegistry - Application version is -1: true
+13-02-2025 20:38:59.376 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - Getting all instance registry info from the eureka server
+13-02-2025 20:39:00.548 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - The response status is 200
+13-02-2025 20:39:00.553 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.initScheduledTasks - Starting heartbeat executor: renew interval is: 30
+13-02-2025 20:39:00.564 [main] [-] INFO  api-gateway-c.n.discovery.InstanceInfoReplicator.<init> - InstanceInfoReplicator onDemand update allowed rate per min is 4
+13-02-2025 20:39:00.568 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1739459340567 with initial instances count: 3
+13-02-2025 20:39:00.576 [main] [-] INFO  api-gateway-o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application API-GATEWAY with eureka with status UP
+13-02-2025 20:39:00.578 [main] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.notify - Saw local status change event StatusChangeEvent [timestamp=1739459340578, current=UP, previous=STARTING]
+13-02-2025 20:39:00.592 [DiscoveryClient-InstanceInfoReplicator-%d] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_API-GATEWAY/localhost:api-gateway: registering service...
+13-02-2025 20:39:00.751 [DiscoveryClient-InstanceInfoReplicator-%d] [-] INFO  api-gateway-c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_API-GATEWAY/localhost:api-gateway - registration status: 204
+13-02-2025 20:39:01.218 [main] [-] INFO  api-gateway-o.s.b.w.e.netty.NettyWebServer.start - Netty started on port 8080 (http)
+13-02-2025 20:39:01.221 [main] [-] INFO  api-gateway-o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 8080
+13-02-2025 20:39:02.241 [main] [-] INFO  api-gateway-o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+13-02-2025 20:39:03.270 [main] [-] INFO  api-gateway-o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+13-02-2025 20:39:03.400 [main] [-] INFO  api-gateway-c.e.e.a.ApiGatewayApplication.logStarted - Started ApiGatewayApplication in 23.227 seconds (process running for 29.932)
